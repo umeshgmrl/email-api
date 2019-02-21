@@ -1,1 +1,1 @@
-# email-api
+http://localhost:8080/?to=umeshgmrl@gmail.com&subject=Hello&message=HelloHello

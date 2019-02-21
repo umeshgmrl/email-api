@@ -1,0 +1,25 @@
+{
+  "name": "email-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umeshgmrl/email-api.git"
+  },
+  "keywords": [],
+  "author": "Bhumesh Domala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umeshgmrl/email-api/issues"
+  },
+  "homepage": "https://github.com/umeshgmrl/email-api#readme",
+  "dependencies": {
+    "install": "^0.12.2",
+    "nodemailer": "^5.1.1",
+    "npm": "^6.8.0"
+  }
+}
