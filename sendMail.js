@@ -9,9 +9,4 @@ const transporter = nodemailer.createTransport({
 	}
 });
 
-module.exports = mailOptions => {
-	transporter.sendMail(mailOptions, function(err, info) {
-		if (err) console.log(err);
-		else console.log(info);
-	});
-};
+module.exports = async mailOptions => await transporter.sendMail(mailOptions);
